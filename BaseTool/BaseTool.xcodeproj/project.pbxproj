@@ -15,6 +15,11 @@
 		65296203204693E800D1B395 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 65296202204693E800D1B395 /* main.m */; };
 		6529620D204693E800D1B395 /* BaseToolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6529620C204693E800D1B395 /* BaseToolTests.m */; };
 		65296218204693E800D1B395 /* BaseToolUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 65296217204693E800D1B395 /* BaseToolUITests.m */; };
+		652962342046947A00D1B395 /* UILabel+EX.m in Sources */ = {isa = PBXBuildFile; fileRef = 652962272046947900D1B395 /* UILabel+EX.m */; };
+		652962352046947A00D1B395 /* NSDate+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 652962292046947900D1B395 /* NSDate+YYAdd.m */; };
+		652962362046947A00D1B395 /* NSString+EX.m in Sources */ = {isa = PBXBuildFile; fileRef = 6529622E2046947900D1B395 /* NSString+EX.m */; };
+		652962382046947A00D1B395 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 652962302046947900D1B395 /* UIView+Frame.m */; };
+		652962392046947A00D1B395 /* UIAlertController+EX.m in Sources */ = {isa = PBXBuildFile; fileRef = 652962312046947900D1B395 /* UIAlertController+EX.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,16 @@
 		65296213204693E800D1B395 /* BaseToolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BaseToolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		65296217204693E800D1B395 /* BaseToolUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseToolUITests.m; sourceTree = "<group>"; };
 		65296219204693E800D1B395 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		652962262046947800D1B395 /* NSDate+YYAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+YYAdd.h"; sourceTree = "<group>"; };
+		652962272046947900D1B395 /* UILabel+EX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+EX.m"; sourceTree = "<group>"; };
+		652962282046947900D1B395 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		652962292046947900D1B395 /* NSDate+YYAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+YYAdd.m"; sourceTree = "<group>"; };
+		6529622A2046947900D1B395 /* UILabel+EX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+EX.h"; sourceTree = "<group>"; };
+		6529622B2046947900D1B395 /* NSString+EX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+EX.h"; sourceTree = "<group>"; };
+		6529622C2046947900D1B395 /* UIAlertController+EX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertController+EX.h"; sourceTree = "<group>"; };
+		6529622E2046947900D1B395 /* NSString+EX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+EX.m"; sourceTree = "<group>"; };
+		652962302046947900D1B395 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		652962312046947900D1B395 /* UIAlertController+EX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertController+EX.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,8 +151,58 @@
 		65296225204693F700D1B395 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				65296240204694BE00D1B395 /* UIView */,
+				6529623E204694AB00D1B395 /* UILable */,
+				6529623D2046949B00D1B395 /* UIAlertController */,
+				6529623C2046948E00D1B395 /* NSString */,
+				6529623B2046948000D1B395 /* NSDate */,
 			);
 			path = Category;
+			sourceTree = "<group>";
+		};
+		6529623B2046948000D1B395 /* NSDate */ = {
+			isa = PBXGroup;
+			children = (
+				652962262046947800D1B395 /* NSDate+YYAdd.h */,
+				652962292046947900D1B395 /* NSDate+YYAdd.m */,
+			);
+			path = NSDate;
+			sourceTree = "<group>";
+		};
+		6529623C2046948E00D1B395 /* NSString */ = {
+			isa = PBXGroup;
+			children = (
+				6529622B2046947900D1B395 /* NSString+EX.h */,
+				6529622E2046947900D1B395 /* NSString+EX.m */,
+			);
+			path = NSString;
+			sourceTree = "<group>";
+		};
+		6529623D2046949B00D1B395 /* UIAlertController */ = {
+			isa = PBXGroup;
+			children = (
+				6529622C2046947900D1B395 /* UIAlertController+EX.h */,
+				652962312046947900D1B395 /* UIAlertController+EX.m */,
+			);
+			path = UIAlertController;
+			sourceTree = "<group>";
+		};
+		6529623E204694AB00D1B395 /* UILable */ = {
+			isa = PBXGroup;
+			children = (
+				6529622A2046947900D1B395 /* UILabel+EX.h */,
+				652962272046947900D1B395 /* UILabel+EX.m */,
+			);
+			path = UILable;
+			sourceTree = "<group>";
+		};
+		65296240204694BE00D1B395 /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				652962282046947900D1B395 /* UIView+Frame.h */,
+				652962302046947900D1B395 /* UIView+Frame.m */,
+			);
+			path = UIView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,9 +338,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				652962342046947A00D1B395 /* UILabel+EX.m in Sources */,
+				652962362046947A00D1B395 /* NSString+EX.m in Sources */,
+				652962392046947A00D1B395 /* UIAlertController+EX.m in Sources */,
+				652962382046947A00D1B395 /* UIView+Frame.m in Sources */,
 				652961F8204693E800D1B395 /* ViewController.m in Sources */,
 				65296203204693E800D1B395 /* main.m in Sources */,
 				652961F5204693E800D1B395 /* AppDelegate.m in Sources */,
+				652962352046947A00D1B395 /* NSDate+YYAdd.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
